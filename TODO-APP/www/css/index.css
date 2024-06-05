@@ -1,0 +1,68 @@
+.fieldset-group {
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+.fieldset-group legend {
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+}
+
+.button-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group button.btn-add {
+    background-color: #007bff;
+}
+
+.button-group button.btn-reset {
+    background-color: #007bff;
+}
+
+[data-role="header"] .title {
+    color: #007bff;
+    font-size: 28px;
+}
+
+.parentImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+[data-role="footer"] {
+    text-align: center;
+}
+
+[data-role="footer"] .footer {
+    color: #007bff;
+    background-color: white;
+    border-top: 1px solid #007bff;
+}
+
+[data-role="header"] .header {
+    text-align: center;
+    border-bottom: solid 1px #007bff;
+    color: #007bff;
+    background-color: #ffffff;
+    border-top: 1px solid #007bff;
+}

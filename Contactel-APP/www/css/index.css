@@ -1,0 +1,54 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.header, .footer {
+    background-color: #fff;
+    border-bottom: 2px solid #1E88E5;
+    color: #1E88E5;
+}
+
+.header h1, .footer h1 {
+    color: #1E88E5;
+}               
+
+.btn-primary {
+    background-color: #1E88E5;
+    border-color: #1E88E5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1565C0;
+    border-color: #1565C0;
+}
+
+.ui-field-contain label {
+    color: #1E88E5;
+}
+
+.ui-field-contain input {
+    border: 1px solid #1E88E5;
+    color: #000;
+    background-color: #fff;
+}
+
+.ui-field-contain input:focus {
+    border-color: #1565C0;
+}
+
+#contactList li a {
+    border-bottom: none;
+}
+
+#contactList li a h1, #contactList li a p {
+    color: #000;
+}
+
+.imageParent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

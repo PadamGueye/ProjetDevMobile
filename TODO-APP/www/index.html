@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/themes/todoTheme.min.css">
+    <link rel="stylesheet" href="lib/themes/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="lib/jquery.mobile.structure-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>ToDo List</title>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" class="header">
+            <h1 class="title">Todo List</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="parentImage">
+                <img src="img/todo.jpeg" alt="Logo" class="logo">
+            </div>
+            <form>
+                <label for="taskField">Ajouter une tâche</label>
+                <input type="text" id="taskField" placeholder="Entrez une tâche">
+            </form>
+            <fieldset class="fieldset-group">
+                <form class="button-group">
+                    <button type="button" onclick="ajouterTache()" class="btn-add">Ajouter</button>
+                    <button type="button" onclick="reinitialiserListe()" class="btn-reset">Réinitialiser</button>
+                </form>
+            </fieldset>
+            <fieldset class="fieldset-group">
+                <legend>Tâches en cours</legend>
+                <ul id="taskList" data-role="listview" data-inset="true"></ul>
+            </fieldset>
+            <fieldset class="fieldset-group">
+                <legend>Tâches faites</legend>
+                <ul id="taskListDone" data-role="listview" data-inset="true"></ul>
+            </fieldset>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1 class="footer">&copy; Padam DIC3-2023</h1>
+        </div>
+    </div>
+</body>
+</html>
